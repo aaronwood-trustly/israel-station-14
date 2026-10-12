@@ -1,0 +1,8 @@
+- type: playTimeTracker
+  id: JobCanaanAbraham
+
+- type: playTimeTracker
+  id: JobCanaanIsaac
+
+- type: playTimeTracker
+  id: JobCanaanJacob

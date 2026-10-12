@@ -1,0 +1,20 @@
+{
+    "version": 1,
+    "license": "CC-BY-SA-3.0",
+    "copyright": "Canaan patriarch icons (abraham, isaac, jacob) made for the Canaan POI",
+    "size": {
+        "x": 8,
+        "y": 8
+    },
+    "states": [
+        {
+            "name": "abraham"
+        },
+        {
+            "name": "isaac"
+        },
+        {
+            "name": "jacob"
+        }
+    ]
+}

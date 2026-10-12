@@ -1,0 +1,26 @@
+- type: jobIcon
+  parent: JobIcon
+  id: JobIconCanaanAbraham
+  icon:
+    sprite: /Textures/_Canaan/Interface/job_icons.rsi
+    state: abraham
+  jobName: job-name-canaan-abraham
+  allowSelection: false # one Abraham per sector
+
+- type: jobIcon
+  parent: JobIcon
+  id: JobIconCanaanIsaac
+  icon:
+    sprite: /Textures/_Canaan/Interface/job_icons.rsi
+    state: isaac
+  jobName: job-name-canaan-isaac
+  allowSelection: false
+
+- type: jobIcon
+  parent: JobIcon
+  id: JobIconCanaanJacob
+  icon:
+    sprite: /Textures/_Canaan/Interface/job_icons.rsi
+    state: jacob
+  jobName: job-name-canaan-jacob
+  allowSelection: false

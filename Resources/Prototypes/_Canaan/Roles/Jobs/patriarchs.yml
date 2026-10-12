@@ -1,0 +1,107 @@
+# Canaan: the household of the patriarchs.
+# These three jobs only exist at the Canaan point of interest (see _Canaan/PointsOfInterest/canaan.yml).
+# Each is a single slot and always spawns at its own marker on the Canaan map.
+
+- type: job
+  id: CanaanAbraham
+  name: job-name-canaan-abraham
+  description: job-description-canaan-abraham
+  playTimeTracker: JobCanaanAbraham
+  startingGear: CanaanAbrahamGear
+  alwaysUseSpawner: true
+  icon: "JobIconCanaanAbraham"
+  supervisors: job-supervisors-canaan-abraham
+  weight: 20
+  displayWeight: 3
+  canBeAntag: false
+  accessGroups:
+  - GeneralAccess
+  special:
+  - !type:GiveItemOnHolidaySpecial
+    holiday: FrontierBirthday
+    prototype: FrontierBirthdayGift
+
+- type: job
+  id: CanaanIsaac
+  name: job-name-canaan-isaac
+  description: job-description-canaan-isaac
+  playTimeTracker: JobCanaanIsaac
+  startingGear: CanaanIsaacGear
+  alwaysUseSpawner: true
+  icon: "JobIconCanaanIsaac"
+  supervisors: job-supervisors-canaan-isaac
+  weight: 20
+  displayWeight: 2
+  canBeAntag: false
+  accessGroups:
+  - GeneralAccess
+  special:
+  - !type:GiveItemOnHolidaySpecial
+    holiday: FrontierBirthday
+    prototype: FrontierBirthdayGift
+
+- type: job
+  id: CanaanJacob
+  name: job-name-canaan-jacob
+  description: job-description-canaan-jacob
+  playTimeTracker: JobCanaanJacob
+  startingGear: CanaanJacobGear
+  alwaysUseSpawner: true
+  icon: "JobIconCanaanJacob"
+  supervisors: job-supervisors-canaan-jacob
+  weight: 20
+  displayWeight: 1
+  canBeAntag: false
+  accessGroups:
+  - GeneralAccess
+  special:
+  - !type:GiveItemOnHolidaySpecial
+    holiday: FrontierBirthday
+    prototype: FrontierBirthdayGift
+
+# Starting gear only fills pockets and the backpack. Clothing, PDA, headset and
+# survival gear come from the role loadouts below, so players can still customize.
+
+- type: startingGear
+  id: CanaanAbrahamGear
+  storage:
+    back:
+    - Cane # a walking staff for a man who set out without knowing where he was going
+    - FoodBreadPlain # hospitality for the three strangers at Mamre
+    - DrinkWaterJug
+
+- type: startingGear
+  id: CanaanIsaacGear
+  storage:
+    back:
+    - Shovel # for re-digging his father's wells (Genesis 26:18)
+    - HydroponicsToolSpade # he sowed in that land and reaped a hundredfold (Genesis 26:12)
+
+- type: startingGear
+  id: CanaanJacobGear
+  storage:
+    back:
+    - FoodSoupStew # a pot of red lentil stew. Not for sale. Probably.
+    - OilJarOlive # for anointing a stone pillar at Bethel (Genesis 28:18)
+    - ClothingUniformColorRainbow # a coat of many colors, saved for a favorite son
+
+- type: chameleonOutfit
+  id: CanaanAbrahamChameleonOutfit
+  job: CanaanAbraham
+  equipment:
+    jumpsuit: ClothingUniformJumpsuitMonasticRobeLight
+    shoes: ClothingShoesColorBrown
+
+- type: chameleonOutfit
+  id: CanaanIsaacChameleonOutfit
+  job: CanaanIsaac
+  equipment:
+    jumpsuit: ClothingUniformJumpsuitMonasticRobeDark
+    shoes: ClothingShoesColorBrown
+
+- type: chameleonOutfit
+  id: CanaanJacobChameleonOutfit
+  job: CanaanJacob
+  equipment:
+    jumpsuit: ClothingUniformJumpsuitMonasticRobeLight
+    shoes: ClothingShoesColorBrown

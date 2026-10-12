@@ -1,0 +1,10 @@
+- type: department
+  id: Canaan
+  name: department-Canaan
+  description: department-Canaan-description
+  color: "#C8A165"
+  weight: 45 # just below the Frontier department in the lobby and character editor
+  roles:
+  - CanaanAbraham
+  - CanaanIsaac
+  - CanaanJacob

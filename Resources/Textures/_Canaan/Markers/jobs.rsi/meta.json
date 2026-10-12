@@ -1,0 +1,23 @@
+{
+    "version": 1,
+    "license": "CC-BY-SA-3.0",
+    "copyright": "green state taken from _NF/Markers/jobs.rsi (Made by dvir001 (GitHub), Pilot&ERT Mail Carrier marker made by erhardsteinhauer (discord)); abraham, isaac, jacob made for the Canaan POI",
+    "size": {
+        "x": 32,
+        "y": 32
+    },
+    "states": [
+        {
+            "name": "green"
+        },
+        {
+            "name": "abraham"
+        },
+        {
+            "name": "isaac"
+        },
+        {
+            "name": "jacob"
+        }
+    ]
+}

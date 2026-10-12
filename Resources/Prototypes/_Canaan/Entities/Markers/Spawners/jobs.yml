@@ -1,0 +1,38 @@
+- type: entity
+  id: SpawnPointCanaanAbraham
+  parent: SpawnPointJobBase
+  name: abraham
+  components:
+  - type: SpawnPoint
+    job_id: CanaanAbraham
+  - type: Sprite
+    sprite: _Canaan/Markers/jobs.rsi
+    layers:
+    - state: green
+    - state: abraham
+
+- type: entity
+  id: SpawnPointCanaanIsaac
+  parent: SpawnPointJobBase
+  name: isaac
+  components:
+  - type: SpawnPoint
+    job_id: CanaanIsaac
+  - type: Sprite
+    sprite: _Canaan/Markers/jobs.rsi
+    layers:
+    - state: green
+    - state: isaac
+
+- type: entity
+  id: SpawnPointCanaanJacob
+  parent: SpawnPointJobBase
+  name: jacob
+  components:
+  - type: SpawnPoint
+    job_id: CanaanJacob
+  - type: Sprite
+    sprite: _Canaan/Markers/jobs.rsi
+    layers:
+    - state: green
+    - state: jacob

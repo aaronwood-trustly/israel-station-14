@@ -1,0 +1,81 @@
+# The patriarchs reuse the Contractor loadout groups, so players keep the usual
+# Frontier customization (clothing, PDA, headset, survival box, wallet, pets).
+# Their themed items come from startingGear in _Canaan/Roles/Jobs/patriarchs.yml.
+
+- type: roleLoadout
+  id: JobCanaanAbraham
+  groups:
+  - ContractorHead
+  - ContractorNeck
+  - ContractorJumpsuit
+  - ContractorGloves
+  - ContractorBackpack
+  - ContractorOuterClothing
+  - ContractorForcedOuterClothing
+  - ContractorShoes
+  - ContractorFace
+  - ContractorGlasses
+  - ContractorBelt
+  - ContractorEars
+  - ContractorEncryptionKey
+  - ContractorBoxSurvival
+  - ContractorPDA
+  - ContractorWallet
+  - ContractorCartridge
+  - ContractorImplanter
+  - ContractorBackpackItems
+  - ContractorHandItems
+  - ContractorSupportPets
+  - NFSpeciesSpecific
+
+- type: roleLoadout
+  id: JobCanaanIsaac
+  groups:
+  - ContractorHead
+  - ContractorNeck
+  - ContractorJumpsuit
+  - ContractorGloves
+  - ContractorBackpack
+  - ContractorOuterClothing
+  - ContractorForcedOuterClothing
+  - ContractorShoes
+  - ContractorFace
+  - ContractorGlasses
+  - ContractorBelt
+  - ContractorEars
+  - ContractorEncryptionKey
+  - ContractorBoxSurvival
+  - ContractorPDA
+  - ContractorWallet
+  - ContractorCartridge
+  - ContractorImplanter
+  - ContractorBackpackItems
+  - ContractorHandItems
+  - ContractorSupportPets
+  - NFSpeciesSpecific
+
+- type: roleLoadout
+  id: JobCanaanJacob
+  groups:
+  - ContractorHead
+  - ContractorNeck
+  - ContractorJumpsuit
+  - ContractorGloves
+  - ContractorBackpack
+  - ContractorOuterClothing
+  - ContractorForcedOuterClothing
+  - ContractorShoes
+  - ContractorFace
+  - ContractorGlasses
+  - ContractorBelt
+  - ContractorEars
+  - ContractorEncryptionKey
+  - ContractorBoxSurvival
+  - ContractorPDA
+  - ContractorWallet
+  - ContractorCartridge
+  - ContractorImplanter
+  - ContractorBackpackItems
+  - ContractorHandItems
+  - ContractorSupportPets
+  - NFSpeciesSpecific
